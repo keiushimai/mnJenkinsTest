@@ -1,0 +1,2 @@
+# mnJenkinsTest
+micronaut jenkins test
