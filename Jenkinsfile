@@ -18,7 +18,8 @@ pipeline {
 
 		stage('Deploy') {
 			steps {
-			    bat "gradlew runShadow"
+			    bat "cd "
+				bat "deploy.bat"
 			}
 		}
 	}
