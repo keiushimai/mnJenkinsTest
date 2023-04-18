@@ -11,4 +11,9 @@ class HelloWorldController {
         return "hello world"
     }
 
+    @Get("/no")
+    def no(){
+        return "no world"
+    }
+
 }
