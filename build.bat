@@ -1,7 +1,6 @@
-pwd
+cd
 
 cd mn-test-jenkins
-pwd
 
 call gradlew clean
-call gradlew bootRun
+call gradlew run
