@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: mnTestJenkins
+
+  server:
+    port: 8081
