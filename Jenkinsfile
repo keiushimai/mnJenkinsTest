@@ -5,9 +5,8 @@ pipeline {
 
 		stage('Build'){
 			steps {
-				bat "cd mn-test-jenkins"
-				bat "gradlew clean"
-				bat "gradlew shadowJar"
+				bat "cd "
+				bat "build.bat"
 			}
 		}
 
